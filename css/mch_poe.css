@@ -1,0 +1,56 @@
+
+
+#preview-on-editor-iframe{
+    width: 100%;
+    height: calc(100% - 35px);
+}
+
+
+#mch-poe-preview-container {
+    padding-right: 5px;
+    width : 430px;
+    height : 80%;
+    margin-top: 40px;
+    position: fixed;
+    z-index: 0;
+    right: 2px;
+    max-height : calc(90vh - 5px);
+    overflow: auto;
+}
+
+
+.mch-main-editor-area{
+    width: calc(100% - (430px + 20px ));
+}
+
+#screen-meta, #screen-options-link-wrap{
+    z-index:1;
+}
+
+
+#mch-poe-bottom{
+    height: 20px;
+}
+
+
+#mch-poe-reload-btn{
+    margin-right: 20px;
+}
+
+
+/***/
+
+/*.block-editor__container .edit-post-layout__content{*/
+/*    width: calc(100% - 440px - 520px);*/
+/*}*/
+.edit-post-layout__content{
+    width: calc(100% - 440px - 520px);
+}
+
+.edit-post-sidebar{
+    right: 515px;
+}
+
+
+
+
